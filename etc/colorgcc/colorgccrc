@@ -1,0 +1,98 @@
+#
+# colorgcc configuration file
+#
+# This file should be named $HOME/.colorgccrc
+#
+#
+# The following groups of attributes may be combined for a given color:
+#
+# clear         black      on_black
+# reset         red        on_red
+# bold          green      on_green
+# underline     yellow     on_yellow
+# underscore    blue       on_blue
+# blink         magenta    on_magenta
+# reverse       cyan       on_cyan
+# concealed     white      on_white
+#
+# For example, srcColor: bold cyan on_yellow
+#
+
+# If you are using colorgcc in chain with other tools
+# e.g. ccache, uncomment this:
+chainedPath: 1
+
+# Only define the paths to the actual location of the various compilers 
+# if you need to do something weird.  For normal installs, 
+# we'll figure out who to call next automatically based on $PATH. 
+# If the requested compiler is not found => search "gcc"
+
+# Define aliases for the usual compilers to allow using colorgcc
+# without path munging.  (E.g. make CXX=color-g++)
+color-g++: /usr/bin/g++
+color-gcc: /usr/bin/gcc
+color-c++: /usr/bin/c++
+color-cc:  /usr/bin/cc
+
+# Uncomment this if you want set up default path to gcc
+#g++: /usr/bin/g++
+#gcc: /usr/bin/gcc
+#c++: /usr/bin/c++
+#cc:  /usr/bin/cc
+
+### add by qv
+#pc
+g++: /usr/bin/g++
+gcc: /usr/bin/gcc
+c++: /usr/bin/c++
+cc:  /usr/bin/cc
+#3516
+arm-hisiv300-linux-gcc: /opt/Hi3516A_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv300-linux/target/bin/arm-hisiv300-linux-gcc~
+arm-hisiv300-linux-g++: /opt/Hi3516A_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv300-linux/target/bin/arm-hisiv300-linux-g++~
+arm-hisiv300-linux-c++: /opt/Hi3516A_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv300-linux/target/bin/arm-hisiv300-linux-c++~
+#3536-2.0.2.0
+#arm-hisiv400-linux-gcc: /opt/Hi3536_SDK_V2.0.2.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-gcc~
+#arm-hisiv400-linux-g++: /opt/Hi3536_SDK_V2.0.2.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-g++~
+#arm-hisiv400-linux-c++: /opt/Hi3536_SDK_V2.0.2.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-c++~
+#3536-2.0.6.0
+arm-hisiv400-linux-gcc: /opt/Hi3536_SDK_V2.0.6.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-gcc~
+arm-hisiv400-linux-g++: /opt/Hi3536_SDK_V2.0.6.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-g++~
+arm-hisiv400-linux-c++: /opt/Hi3536_SDK_V2.0.6.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-c++~
+#3519
+arm-hisiv600-linux-gcc: /opt/Hi3519V101_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv600-linux/target/bin/arm-hisiv600-linux-gcc~
+arm-hisiv600-linux-g++: /opt/Hi3519V101_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv600-linux/target/bin/arm-hisiv600-linux-g++~
+arm-hisiv600-linux-c++: /opt/Hi3519V101_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv600-linux/target/bin/arm-hisiv600-linux-c++~
+#8168
+arm-arago-linux-gnueabi-gcc: /opt/DVRRDK_04.01.00.02/ti_tools/cgt_a8/arago/linux-devkit/bin/arm-arago-linux-gnueabi-gcc~
+arm-arago-linux-gnueabi-g++: /opt/DVRRDK_04.01.00.02/ti_tools/cgt_a8/arago/linux-devkit/bin/arm-arago-linux-gnueabi-g++~
+
+
+# Don't do color if our terminal type ($TERM) is one of these.
+# (List all terminal types on one line, seperated by whitespace.)
+nocolor: dumb
+
+# Text between ` and ' is usually source code.
+srcColor: bold cyan
+
+# Text other than a warning or error.
+introFileNameColor: reset
+introMessageColor:  blue
+
+# Warnings and errors both have similar formats:
+#    filename:999:Message
+# Each field may be assigned a different color.
+
+# Warnings
+warningFileNameColor: reset
+warningNumberColor:   white
+warningMessageColor:  yellow
+
+# Errors
+errorFileNameColor: reset
+errorNumberColor:   white
+errorMessageColor:  bold red
+
+# Notes
+noteFileNameColor: reset
+noteNumberColor:   white
+noteMessageColor:  green
