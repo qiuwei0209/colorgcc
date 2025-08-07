@@ -46,26 +46,25 @@ g++: /usr/bin/g++
 gcc: /usr/bin/gcc
 c++: /usr/bin/c++
 cc:  /usr/bin/cc
-#3516
+#Ti8168
+arm-arago-linux-gnueabi-gcc: /opt/DVRRDK_04.01.00.02/ti_tools/cgt_a8/arago/linux-devkit/bin/arm-arago-linux-gnueabi-gcc~
+arm-arago-linux-gnueabi-g++: /opt/DVRRDK_04.01.00.02/ti_tools/cgt_a8/arago/linux-devkit/bin/arm-arago-linux-gnueabi-g++~
+#Hi3516
 arm-hisiv300-linux-gcc: /opt/Hi3516A_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv300-linux/target/bin/arm-hisiv300-linux-gcc~
 arm-hisiv300-linux-g++: /opt/Hi3516A_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv300-linux/target/bin/arm-hisiv300-linux-g++~
 arm-hisiv300-linux-c++: /opt/Hi3516A_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv300-linux/target/bin/arm-hisiv300-linux-c++~
-#3536-2.0.2.0
-#arm-hisiv400-linux-gcc: /opt/Hi3536_SDK_V2.0.2.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-gcc~
-#arm-hisiv400-linux-g++: /opt/Hi3536_SDK_V2.0.2.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-g++~
-#arm-hisiv400-linux-c++: /opt/Hi3536_SDK_V2.0.2.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-c++~
-#3536-2.0.6.0
+#Hi3536
 arm-hisiv400-linux-gcc: /opt/Hi3536_SDK_V2.0.6.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-gcc~
 arm-hisiv400-linux-g++: /opt/Hi3536_SDK_V2.0.6.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-g++~
 arm-hisiv400-linux-c++: /opt/Hi3536_SDK_V2.0.6.0/hisi-linux/x86-arm/arm-hisiv400-linux/target/bin/arm-hisiv400-linux-c++~
-#3519
+#Hi3519
 arm-hisiv600-linux-gcc: /opt/Hi3519V101_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv600-linux/target/bin/arm-hisiv600-linux-gcc~
 arm-hisiv600-linux-g++: /opt/Hi3519V101_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv600-linux/target/bin/arm-hisiv600-linux-g++~
 arm-hisiv600-linux-c++: /opt/Hi3519V101_SDK_V1.0.5.0/hisi-linux/x86-arm/arm-hisiv600-linux/target/bin/arm-hisiv600-linux-c++~
-#8168
-arm-arago-linux-gnueabi-gcc: /opt/DVRRDK_04.01.00.02/ti_tools/cgt_a8/arago/linux-devkit/bin/arm-arago-linux-gnueabi-gcc~
-arm-arago-linux-gnueabi-g++: /opt/DVRRDK_04.01.00.02/ti_tools/cgt_a8/arago/linux-devkit/bin/arm-arago-linux-gnueabi-g++~
-
+#SS626
+aarch64-mix410-linux-gcc: /opt/SS626V100_SDK_V2.0.1.0/hisi-linux/x86-arm/aarch64-mix410-linux/bin/aarch64-mix410-linux-gcc~
+aarch64-mix410-linux-g++: /opt/SS626V100_SDK_V2.0.1.0/hisi-linux/x86-arm/aarch64-mix410-linux/bin/aarch64-mix410-linux-g++~
+aarch64-mix410-linux-c++: /opt/SS626V100_SDK_V2.0.1.0/hisi-linux/x86-arm/aarch64-mix410-linux/bin/aarch64-mix410-linux-c++~
 
 # Don't do color if our terminal type ($TERM) is one of these.
 # (List all terminal types on one line, seperated by whitespace.)
